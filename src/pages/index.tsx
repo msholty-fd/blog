@@ -17,8 +17,8 @@ export default function Index() {
           </h1>
           <span className="handle">@nextjs-netlify-blog</span>
           <h2>
-            This is where I dump all my thoughts. I hope some of them are of
-            interest to you.
+            This is where I dump all my thoughts.
+            <br />I hope some of them are of interest to you.
           </h2>
           <SocialList />
         </div>
