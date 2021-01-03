@@ -30,7 +30,6 @@ export default function Index({
   tags,
   description,
 }: Props) {
-  console.warn(tags);
   const keywords = tags.map((it) => getTag(it).name);
   const authorName = getAuthor(author).name;
   return ({ children: content }) => {
