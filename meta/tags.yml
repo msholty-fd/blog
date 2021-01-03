@@ -11,3 +11,6 @@ tags:
     name: mdx
   - slug: markdown
     name: markdown
+  # My actual tags
+  - slug: self-reflections
+    name: self-reflections
