@@ -15,7 +15,9 @@ export default function Index() {
           <h1>
             Hi, My Name is Michael Sholty<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
+          <span className="handle">
+            <a href="https://twitter.com/_MichaelSholty">@_MichaelSholty</a>
+          </span>
           <h2>
             This is where I dump all my thoughts.
             <br />I hope some of them are of interest to you.
