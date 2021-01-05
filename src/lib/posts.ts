@@ -49,7 +49,9 @@ function fetchPostContent(): PostContent[] {
       }
 
       return matterData;
-    });
+    })
+    // Do not include posts that have the "draft" tag
+    .filter((post) => !post.tags.includes("draft"));
   // Sort posts by date
   postCache = allPostsData.sort((a, b) => {
     if (a.date < b.date) {

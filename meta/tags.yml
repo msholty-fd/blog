@@ -14,3 +14,5 @@ tags:
   # My actual tags
   - slug: self-reflections
     name: self-reflections
+  - slug: draft
+    name: draft
